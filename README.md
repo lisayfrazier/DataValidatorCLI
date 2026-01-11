@@ -24,6 +24,34 @@ At the end, it prints a summary of how many entries were valid vs invalid.
 - Git + GitHub
 
 ---
+---
+
+## How to Run
+
+### Option 1 — Run in Visual Studio
+1. Open the solution file: `DataValidatorCLI.sln` in Visual Studio
+2. Set the startup project to **DataValidatorCLI**
+3. Press **Ctrl + F5** to run (Start Without Debugging)
+4. Enter transactions one per line using this format:
+
+Example:
+1,2025-12-01,25.00,Coffee
+2,2025-13-01,30.00,Groceries
+3,2025-12-01,-10.00,Refund
+DONE
+
+---
+
+### Option 2 — Run in Terminal (Windows)
+If you have .NET installed:
+
+1. Open Command Prompt or PowerShell
+2. Navigate to the project folder
+3. Run:
+
+```bash
+dotnet run
+
 
 ##  Input Format
 
