@@ -35,6 +35,7 @@ At the end, it prints a summary of how many entries were valid vs invalid.
 4. Enter transactions one per line using this format:
 
 Example:
+```txt
 1,2025-12-01,25.00,Coffee
 2,2025-13-01,30.00,Groceries
 3,2025-12-01,-10.00,Refund
