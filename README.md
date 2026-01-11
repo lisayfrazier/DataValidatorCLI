@@ -57,7 +57,6 @@ If you have .NET installed:
 ```bash
 dotnet run
 
-
 ##  Input Format
 
 Each transaction must be entered in this format:
