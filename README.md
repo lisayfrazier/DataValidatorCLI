@@ -15,6 +15,7 @@ Each transaction must meet the following rules:
 - Date must be in the format **yyyy-mm-dd** (example: 2025-12-01)
 - Amount must be a **valid number** and **not negative**
 - Description must **not be empty**
+- ```
 
 ## Input Format
 
@@ -38,6 +39,7 @@ VALID: Transaction #1 | 2025-12-01 | 25.00 | Coffee
 INVALID: '2,2025-13-01,30.00,Groceries'
 Reason(s):
 - Date must be in yyyy-mm-dd format (example: 2025-12-01).
+```
 
 
 
