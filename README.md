@@ -29,10 +29,14 @@ At the end, it prints a summary of how many entries were valid vs invalid.
 ## How to Run
 
 ### Option 1 — Run in Visual Studio
-1. Open the solution file: `DataValidatorCLI.sln` in Visual Studio
-2. Set the startup project to **DataValidatorCLI**
-3. Press **Ctrl + F5** to run (Start Without Debugging)
-4. Enter transactions one per line using this format:
+
+1. Open the solution file `DataValidatorCLI.sln` in Visual Studio
+2. Set **DataValidatorCLI** as the startup project
+3. Press **Ctrl + F5** (Start Without Debugging)
+4. Enter transactions one per line using the format below
+
+Example:
+
 
 Example:
 ```txt
