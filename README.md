@@ -1,4 +1,5 @@
 # DataValidatorCLI
+
 A C# console app I built to validate transaction entries from user input (TransactionId, Date, Amount, Description).  
 Created as a practice project to strengthen my C# fundamentals and GitHub workflow.
 
@@ -16,25 +17,7 @@ Each transaction must meet the following rules:
 - Description must **not be empty**
 
 ## Input Format
+Enter transactions using this format:
+
 ```txt
 TransactionId,Date(yyyy-mm-dd),Amount,Description
-
-## How to Run
-1. Open the solution in Visual Studio
-2. Press **Ctrl + F5** to run (Start Without Debugging)
-3. Enter transactions one per line
-4. Type **DONE** to finish and view results
-
-## Sample Output
-VALID: Transaction #1 | 2025-12-01 | 25.00 | Coffee
-INVALID: '2,2025-13-01,30.00,Groceries'
-Reason(s):
-- Date must be in yyyy-mm-dd format (example: 2025-12-01).
-
-
-
-
-
-
-
-
