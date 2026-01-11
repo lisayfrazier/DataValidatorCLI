@@ -24,6 +24,7 @@ At the end, it prints a summary of how many entries were valid vs invalid.
 - Git + GitHub
 
 ---
+<img width="1182" height="722" alt="image" src="https://github.com/user-attachments/assets/d7a0b373-2db8-4e5c-a2eb-6be9c2eb3110" />
 
 ##  Input Format
 
